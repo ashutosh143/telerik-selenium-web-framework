@@ -34,11 +34,12 @@ public class ServicesTest  extends BaseTest {
 
     @Test(groups = {"sanity", "regression"})
     public void serviceApiCall() {
+
         logger.info("This is serviceApiCall function");
         ApiMethodsTests apiMethodsTests = new ApiMethodsTests();
         apiMethodsTests.getRequest();
         logger.info("Duplicate call to getRequest");
-        apiMethodsTests.getRequest();
+        //apiMethodsTests.getRequest();
         apiMethodsTests.postRequestTest();
 
     }
