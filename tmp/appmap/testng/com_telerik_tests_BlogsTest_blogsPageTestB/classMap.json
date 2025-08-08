@@ -1,0 +1,50 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "name": "onTestSuccess",
+                    "type": "function",
+                    "static": false,
+                    "location": "com/telerik/listeners/MyListener.java:49"
+                  }
+                ],
+                "name": "MyListener",
+                "type": "class"
+              }
+            ],
+            "name": "listeners",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "name": "blogsPageTestB",
+                    "type": "function",
+                    "static": false,
+                    "location": "com/telerik/tests/BlogsTest.java:33"
+                  }
+                ],
+                "name": "BlogsTest",
+                "type": "class"
+              }
+            ],
+            "name": "tests",
+            "type": "package"
+          }
+        ],
+        "name": "telerik",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  }
+]

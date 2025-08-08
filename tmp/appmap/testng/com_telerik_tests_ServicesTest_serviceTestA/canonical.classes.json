@@ -1,0 +1,5 @@
+[
+  "com/telerik/basetest/BaseTest",
+  "com/telerik/listeners/MyListener",
+  "com/telerik/tests/ServicesTest"
+]

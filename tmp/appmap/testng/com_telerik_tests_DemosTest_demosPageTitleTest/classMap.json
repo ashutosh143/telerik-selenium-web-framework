@@ -1,0 +1,86 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "name": "getTheElementAfterVisible",
+                    "type": "function",
+                    "static": false,
+                    "location": "com/telerik/base/BasePage.java:110"
+                  }
+                ],
+                "name": "BasePage",
+                "type": "class"
+              }
+            ],
+            "name": "base",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "name": "onTestSuccess",
+                    "type": "function",
+                    "static": false,
+                    "location": "com/telerik/listeners/MyListener.java:49"
+                  }
+                ],
+                "name": "MyListener",
+                "type": "class"
+              }
+            ],
+            "name": "listeners",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "name": "demosPageTitleTest",
+                    "type": "function",
+                    "static": false,
+                    "location": "com/telerik/tests/DemosTest.java:16"
+                  }
+                ],
+                "name": "DemosTest",
+                "type": "class"
+              }
+            ],
+            "name": "tests",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "name": "waitForVisibilityOfElement",
+                    "type": "function",
+                    "static": false,
+                    "location": "com/telerik/utils/CustomWait.java:23"
+                  }
+                ],
+                "name": "CustomWait",
+                "type": "class"
+              }
+            ],
+            "name": "utils",
+            "type": "package"
+          }
+        ],
+        "name": "telerik",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "name": "onTestSuccess",
+                    "type": "function",
+                    "static": false,
+                    "location": "com/telerik/listeners/MyListener.java:49"
+                  }
+                ],
+                "name": "MyListener",
+                "type": "class"
+              }
+            ],
+            "name": "listeners",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "name": "demosTestA",
+                    "type": "function",
+                    "static": false,
+                    "location": "com/telerik/tests/DemosTest.java:23"
+                  }
+                ],
+                "name": "DemosTest",
+                "type": "class"
+              }
+            ],
+            "name": "tests",
+            "type": "package"
+          }
+        ],
+        "name": "telerik",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  }
+]

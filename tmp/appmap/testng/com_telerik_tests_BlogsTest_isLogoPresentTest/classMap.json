@@ -1,0 +1,92 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "name": "verifyLogo",
+                    "type": "function",
+                    "static": false,
+                    "location": "com/telerik/base/BasePage.java:122"
+                  }
+                ],
+                "name": "BasePage",
+                "type": "class"
+              }
+            ],
+            "name": "base",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "name": "onTestSuccess",
+                    "type": "function",
+                    "static": false,
+                    "location": "com/telerik/listeners/MyListener.java:49"
+                  },
+                  {
+                    "name": "onTestStart",
+                    "type": "function",
+                    "static": false,
+                    "location": "com/telerik/listeners/MyListener.java:36"
+                  }
+                ],
+                "name": "MyListener",
+                "type": "class"
+              }
+            ],
+            "name": "listeners",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "name": "createTest",
+                    "type": "function",
+                    "static": true,
+                    "location": "com/telerik/reports/ExtentReportManager.java:43"
+                  }
+                ],
+                "name": "ExtentReportManager",
+                "type": "class"
+              }
+            ],
+            "name": "reports",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "name": "isLogoPresentTest",
+                    "type": "function",
+                    "static": false,
+                    "location": "com/telerik/tests/BlogsTest.java:17"
+                  }
+                ],
+                "name": "BlogsTest",
+                "type": "class"
+              }
+            ],
+            "name": "tests",
+            "type": "package"
+          }
+        ],
+        "name": "telerik",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  }
+]

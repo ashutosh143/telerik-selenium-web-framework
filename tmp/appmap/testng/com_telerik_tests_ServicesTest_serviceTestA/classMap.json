@@ -1,0 +1,68 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "name": "onTestSuccess",
+                    "type": "function",
+                    "static": false,
+                    "location": "com/telerik/listeners/MyListener.java:49"
+                  }
+                ],
+                "name": "MyListener",
+                "type": "class"
+              }
+            ],
+            "name": "listeners",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "name": "closeBrowser",
+                    "type": "function",
+                    "static": false,
+                    "location": "com/telerik/basetest/BaseTest.java:83"
+                  }
+                ],
+                "name": "BaseTest",
+                "type": "class"
+              }
+            ],
+            "name": "basetest",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "name": "serviceTestA",
+                    "type": "function",
+                    "static": false,
+                    "location": "com/telerik/tests/ServicesTest.java:32"
+                  }
+                ],
+                "name": "ServicesTest",
+                "type": "class"
+              }
+            ],
+            "name": "tests",
+            "type": "package"
+          }
+        ],
+        "name": "telerik",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  }
+]

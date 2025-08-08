@@ -1,0 +1,9 @@
+07-08-2025 10:48:24 [main] INFO  BaseTest:40 - <<<< Setting Up all the configs before Run >>>> 
+07-08-2025 10:48:24 [main] INFO  BaseTest:50 - Starting the execution for TestSuite ==> Default Suite with Tags 
+07-08-2025 10:48:24 [main] INFO  BaseTest:55 - Starting the execution for Test ==> telerik-selenium-web-framework
+07-08-2025 10:48:28 [main] INFO  ServicesTest:37 - This is serviceApiCall function
+07-08-2025 10:48:31 [main] INFO  BaseTest:83 - Quitting the driver =====> chrome
+07-08-2025 10:48:31 [main] INFO  BaseTest:91 - Ending the execution for Test ==> telerik-selenium-web-framework. 
+
+
+07-08-2025 10:48:31 [main] INFO  BaseTest:96 - <<<< Closing Up all the configs after Run >>>> 

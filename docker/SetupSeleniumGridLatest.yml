@@ -1,0 +1,68 @@
+
+#  # Install required tools
+#  brew install colima
+#  brew install docker
+#  brew install docker-compose
+#
+#  # Start Colima
+#  colima start
+#
+#  # Check if Colima is running
+#  colima status
+#
+#  # Go to the folder where your docker-compose file [SetupSeleniumGridLatest.yml] is saved
+#  cd /your/project/folder
+#
+#  # Start Selenium Grid using Docker Compose
+#  docker-compose -f SetupSeleniumGridLatest.yml up
+#
+#  # Show running Docker containers
+#  docker ps
+#  check the container running on browser
+#  http://localhost:4445/ui
+
+#  This is command will start 3 instances of the ChromeService defined in your SetupSeleniumGridLatest.yml file, allowing parallel test execution across multiple Chrome nodes.
+#  docker-compose -f SetupSeleniumGridLatest.yml up --scale ChromeService=3
+
+# Stop Docker using docker-compose -f SetupSeleniumGridLatest.yml down or Cont +C and then stop colima ==>> colima stop
+
+# https://github.com/abiosoft/colima
+
+
+version: "3"
+services:
+  HubService:
+    image: selenium/hub:4.9.0
+    container_name: seleniumHub
+    ports:
+      - "4445:4444"
+      - "4442:4442"
+      - "4443:4443"
+
+  ChromeService:
+    image: selenium/node-chrome:4.9.0
+    shm_size: "2gb"
+    ports:
+      - "5900"
+      - "7900"
+    environment:
+      - SE_EVENT_BUS_HOST=seleniumHub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_VNC_NO_PASSWORD=1
+    depends_on:
+      - HubService
+
+  FirefoxService:
+    image: selenium/node-firefox:4.9.0
+    shm_size: "2gb"
+    ports:
+      - "5901"
+      - "7901"
+    environment:
+      - SE_EVENT_BUS_HOST=seleniumHub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_VNC_NO_PASSWORD=1
+    depends_on:
+      - HubService

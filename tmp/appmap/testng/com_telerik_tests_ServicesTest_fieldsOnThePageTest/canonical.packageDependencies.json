@@ -1,0 +1,18 @@
+[
+  {
+    "caller": "com/telerik/listeners",
+    "callee": "com/telerik/reports"
+  },
+  {
+    "caller": "com/telerik/pages",
+    "callee": "com/telerik/utils"
+  },
+  {
+    "caller": "com/telerik/tests",
+    "callee": "com/telerik/pages"
+  },
+  {
+    "caller": "com/telerik/tests",
+    "callee": "com/telerik/testdatareaders"
+  }
+]

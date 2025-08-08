@@ -1,0 +1,10 @@
+[
+  {
+    "caller": "com/telerik/listeners",
+    "callee": "com/telerik/reports"
+  },
+  {
+    "caller": "com/telerik/tests",
+    "callee": "com/telerik/base"
+  }
+]

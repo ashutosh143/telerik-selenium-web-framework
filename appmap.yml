@@ -1,0 +1,12 @@
+language: "java"
+name: "telerik-selenium-web-framework"
+appmap_dir: "tmp/appmap"
+packages:
+- path: "com.telerik.base"
+- path: "com.telerik.basetest"
+- path: "com.telerik.listeners"
+- path: "com.telerik.pages"
+- path: "com.telerik.reports"
+- path: "com.telerik.testdatareaders"
+- path: "com.telerik.tests"
+- path: "com.telerik.utils"

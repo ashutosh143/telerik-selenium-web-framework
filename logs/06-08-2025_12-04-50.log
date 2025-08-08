@@ -1,0 +1,117 @@
+06-08-2025 12:04:50 [main] INFO  BaseTest:40 - <<<< Setting Up all the configs before Run >>>> 
+06-08-2025 12:04:51 [main] INFO  BaseTest:50 - Starting the execution for TestSuite ==> Telerik Sanity Suite with Tags sanity
+06-08-2025 12:04:51 [main] INFO  BaseTest:55 - Starting the execution for Test ==> BlogsTest Sanity Cases
+06-08-2025 12:04:56 [main] INFO  MyListener:39 - 🟡 Starting Test: BlogsTest => blogsPageTestB
+06-08-2025 12:04:56 [main] INFO  MyListener:52 - ✅ Test Passed: BlogsTest => blogsPageTestB
+06-08-2025 12:04:56 [main] INFO  BaseTest:83 - Quitting the driver =====> chrome
+06-08-2025 12:04:59 [main] INFO  MyListener:39 - 🟡 Starting Test: BlogsTest => blogsPageTitleTest
+06-08-2025 12:04:59 [main] INFO  MyRetryAnalyzer:19 - Retrying the Test --->>> blogsPageTitleTest Attempt No ---> 1
+06-08-2025 12:04:59 [main] WARN  MyListener:74 - ⚠️ Test Skipped: BlogsTest => blogsPageTitleTest
+06-08-2025 12:04:59 [main] ERROR MyListener:75 - Reason: 
+java.lang.AssertionError:  ERROR - Title is not matching. Actual:  Telerik & Kendo UI - .NET Components Suites & JavaScript UI Libraries expected [Your Source for .NET & JavaScript Developer Info – Telerik Blogs] but found [Telerik & Kendo UI - .NET Components Suites & JavaScript UI Libraries]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.telerik.tests.BlogsTest.blogsPageTitleTest(BlogsTest.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+06-08-2025 12:04:59 [main] INFO  BaseTest:83 - Quitting the driver =====> chrome
+06-08-2025 12:05:02 [main] INFO  MyListener:39 - 🟡 Starting Test: BlogsTest => blogsPageTitleTest
+06-08-2025 12:05:02 [main] ERROR MyListener:61 - ❌ Test Failed: BlogsTest => blogsPageTitleTest
+06-08-2025 12:05:02 [main] ERROR MyListener:62 - Reason: 
+java.lang.AssertionError:  ERROR - Title is not matching. Actual:  Telerik & Kendo UI - .NET Components Suites & JavaScript UI Libraries expected [Your Source for .NET & JavaScript Developer Info – Telerik Blogs] but found [Telerik & Kendo UI - .NET Components Suites & JavaScript UI Libraries]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.telerik.tests.BlogsTest.blogsPageTitleTest(BlogsTest.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+06-08-2025 12:05:02 [main] INFO  MyListener:126 - 📸 Screenshot saved at: /Users/ashutoshrawat/Documents/Personal/Selenium_ULearn/telerik-selenium-web-framework/extent-reports/screenshots/blogsPageTitleTest_06_08_2025_12_05_02.png
+06-08-2025 12:05:02 [main] INFO  BaseTest:83 - Quitting the driver =====> chrome
+06-08-2025 12:05:05 [main] INFO  MyListener:39 - 🟡 Starting Test: BlogsTest => isLogoPresentTest
+06-08-2025 12:05:05 [main] INFO  MyListener:52 - ✅ Test Passed: BlogsTest => isLogoPresentTest
+06-08-2025 12:05:05 [main] INFO  BaseTest:83 - Quitting the driver =====> chrome
+06-08-2025 12:05:05 [main] INFO  BaseTest:91 - Ending the execution for Test ==> BlogsTest Sanity Cases. 
+
+
+06-08-2025 12:05:05 [main] INFO  BaseTest:55 - Starting the execution for Test ==> ServicesTest Sanity Cases
+06-08-2025 12:05:09 [main] INFO  MyListener:39 - 🟡 Starting Test: ServicesTest => fieldsOnThePageTest
+06-08-2025 12:05:10 [main] INFO  ElementUtil:51 -  Consulting is present on the page.
+06-08-2025 12:05:10 [main] INFO  ElementUtil:51 -  Telerik Consulting is present on the page.
+06-08-2025 12:05:10 [main] INFO  MyListener:52 - ✅ Test Passed: ServicesTest => fieldsOnThePageTest
+06-08-2025 12:05:10 [main] INFO  BaseTest:83 - Quitting the driver =====> chrome
+06-08-2025 12:05:13 [main] INFO  MyListener:39 - 🟡 Starting Test: ServicesTest => isTalkToAConsultantButtonPresentTest
+06-08-2025 12:05:13 [main] INFO  MyListener:52 - ✅ Test Passed: ServicesTest => isTalkToAConsultantButtonPresentTest
+06-08-2025 12:05:13 [main] INFO  BaseTest:83 - Quitting the driver =====> chrome
+06-08-2025 12:05:16 [main] INFO  MyListener:39 - 🟡 Starting Test: ServicesTest => serviceTestA
+06-08-2025 12:05:16 [main] INFO  ServicesTest:32 - This is serviceTestA function
+06-08-2025 12:05:16 [main] INFO  MyListener:52 - ✅ Test Passed: ServicesTest => serviceTestA
+06-08-2025 12:05:16 [main] INFO  BaseTest:83 - Quitting the driver =====> chrome
+06-08-2025 12:05:16 [main] INFO  BaseTest:91 - Ending the execution for Test ==> ServicesTest Sanity Cases. 
+
+
+06-08-2025 12:05:16 [main] INFO  BaseTest:55 - Starting the execution for Test ==> DemosTest Sanity Cases
+06-08-2025 12:05:20 [main] INFO  MyListener:39 - 🟡 Starting Test: DemosTest => demosPageTitleTest
+06-08-2025 12:05:20 [main] INFO  MyListener:52 - ✅ Test Passed: DemosTest => demosPageTitleTest
+06-08-2025 12:05:20 [main] INFO  BaseTest:83 - Quitting the driver =====> chrome
+06-08-2025 12:05:23 [main] INFO  MyListener:39 - 🟡 Starting Test: DemosTest => demosTestA
+06-08-2025 12:05:23 [main] INFO  MyListener:52 - ✅ Test Passed: DemosTest => demosTestA
+06-08-2025 12:05:23 [main] INFO  BaseTest:83 - Quitting the driver =====> chrome
+06-08-2025 12:05:24 [main] INFO  BaseTest:91 - Ending the execution for Test ==> DemosTest Sanity Cases. 
+
+
+06-08-2025 12:05:24 [main] INFO  BaseTest:96 - <<<< Closing Up all the configs after Run >>>> 

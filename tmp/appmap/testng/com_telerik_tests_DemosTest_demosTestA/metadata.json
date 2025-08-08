@@ -1,0 +1,23 @@
+{
+  "name": "Demos demos a",
+  "app": "telerik-selenium-web-framework",
+  "language": {
+    "name": "java",
+    "version": "17.0.10+11-LTS-240",
+    "engine": "Java HotSpot(TM) 64-Bit Server VM"
+  },
+  "client": {
+    "name": "appmap-java",
+    "url": "https://github.com/appland/appmap-java"
+  },
+  "recorder": {
+    "name": "testng",
+    "type": "tests"
+  },
+  "recording": {
+    "defined_class": "com.telerik.tests.DemosTest",
+    "method_id": "demosTestA"
+  },
+  "source_location": "com/telerik/tests/DemosTest.java:23",
+  "test_status": "succeeded"
+}

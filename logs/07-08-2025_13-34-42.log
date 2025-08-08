@@ -1,0 +1,19 @@
+07-08-2025 13:34:42 [main] INFO  BaseTest:40 - <<<< Setting Up all the configs before Run >>>> 
+07-08-2025 13:34:42 [main] INFO  BaseTest:50 - Starting the execution for TestSuite ==> Default Suite with Tags 
+07-08-2025 13:34:42 [main] INFO  BaseTest:55 - Starting the execution for Test ==> telerik-selenium-web-framework
+07-08-2025 13:34:47 [main] INFO  MyListener:40 - 🟡 Starting Test: ServicesTest => fieldsOnThePageTest
+07-08-2025 13:34:47 [main] INFO  ElementUtil:51 -  Consulting is present on the page.
+07-08-2025 13:34:47 [main] INFO  ElementUtil:51 -  Telerik Consulting is present on the page.
+07-08-2025 13:34:47 [main] INFO  MyListener:53 - ✅ Test Passed: ServicesTest => fieldsOnThePageTest
+07-08-2025 13:34:47 [main] INFO  BaseTest:83 - Quitting the driver =====> chrome
+07-08-2025 13:34:51 [main] INFO  MyListener:40 - 🟡 Starting Test: ServicesTest => isTalkToAConsultantButtonPresentTest
+07-08-2025 13:34:51 [main] INFO  MyListener:53 - ✅ Test Passed: ServicesTest => isTalkToAConsultantButtonPresentTest
+07-08-2025 13:34:51 [main] INFO  BaseTest:83 - Quitting the driver =====> chrome
+07-08-2025 13:34:54 [main] INFO  MyListener:40 - 🟡 Starting Test: ServicesTest => serviceTestB
+07-08-2025 13:34:54 [main] INFO  ServicesTest:46 - This is serviceTestB function
+07-08-2025 13:34:59 [main] INFO  MyListener:53 - ✅ Test Passed: ServicesTest => serviceTestB
+07-08-2025 13:34:59 [main] INFO  BaseTest:83 - Quitting the driver =====> chrome
+07-08-2025 13:34:59 [main] INFO  BaseTest:91 - Ending the execution for Test ==> telerik-selenium-web-framework. 
+
+
+07-08-2025 13:34:59 [main] INFO  BaseTest:96 - <<<< Closing Up all the configs after Run >>>> 

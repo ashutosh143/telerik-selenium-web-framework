@@ -1,0 +1,55 @@
+07-08-2025 12:00:12 [main] INFO  BaseTest:40 - <<<< Setting Up all the configs before Run >>>> 
+07-08-2025 12:00:12 [main] INFO  BaseTest:50 - Starting the execution for TestSuite ==> Default Suite with Tags 
+07-08-2025 12:00:12 [main] INFO  BaseTest:55 - Starting the execution for Test ==> telerik-selenium-web-framework
+07-08-2025 12:00:16 [main] INFO  MyListener:40 - 🟡 Starting Test: ServicesTest => fieldsOnThePageTest
+07-08-2025 12:00:17 [main] INFO  ElementUtil:51 -  Consulting is present on the page.
+07-08-2025 12:00:17 [main] INFO  ElementUtil:51 -  Telerik Consulting is present on the page.
+07-08-2025 12:00:17 [main] INFO  MyListener:53 - ✅ Test Passed: ServicesTest => fieldsOnThePageTest
+07-08-2025 12:00:17 [main] INFO  BaseTest:83 - Quitting the driver =====> chrome
+07-08-2025 12:00:21 [main] INFO  MyListener:40 - 🟡 Starting Test: ServicesTest => isTalkToAConsultantButtonPresentTest
+07-08-2025 12:00:21 [main] INFO  MyListener:53 - ✅ Test Passed: ServicesTest => isTalkToAConsultantButtonPresentTest
+07-08-2025 12:00:21 [main] INFO  BaseTest:83 - Quitting the driver =====> chrome
+07-08-2025 12:00:24 [main] INFO  MyListener:40 - 🟡 Starting Test: ServicesTest => serviceApiCall
+07-08-2025 12:00:24 [main] INFO  ServicesTest:37 - This is serviceApiCall function
+07-08-2025 12:00:27 [main] INFO  MyListener:53 - ✅ Test Passed: ServicesTest => serviceApiCall
+07-08-2025 12:00:27 [main] INFO  BaseTest:83 - Quitting the driver =====> chrome
+07-08-2025 12:00:31 [main] INFO  MyListener:40 - 🟡 Starting Test: ServicesTest => serviceTestB
+07-08-2025 12:00:31 [main] INFO  ServicesTest:44 - This is serviceTestB function
+07-08-2025 12:00:33 [main] ERROR MyListener:62 - ❌ Test Failed: ServicesTest => serviceTestB
+07-08-2025 12:00:33 [main] ERROR MyListener:63 - Reason: 
+java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.Long (java.lang.Integer and java.lang.Long are in module java.base of loader 'bootstrap')
+	at com.telerik.tests.ApiMethodsTests.postRequestTest(ApiMethodsTests.java:68)
+	at com.telerik.tests.ServicesTest.serviceTestB(ServicesTest.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+07-08-2025 12:00:34 [main] INFO  MyListener:127 - 📸 Screenshot saved at: /Users/ashutoshrawat/Documents/Personal/Selenium_ULearn/telerik-selenium-web-framework/extent-reports/screenshots/serviceTestB_07_08_2025_12_00_33.png
+07-08-2025 12:00:34 [main] INFO  BaseTest:83 - Quitting the driver =====> chrome
+07-08-2025 12:00:35 [main] INFO  BaseTest:91 - Ending the execution for Test ==> telerik-selenium-web-framework. 
+
+
+07-08-2025 12:00:35 [main] INFO  BaseTest:96 - <<<< Closing Up all the configs after Run >>>> 

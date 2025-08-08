@@ -1,0 +1,6 @@
+[
+  "com/telerik/base/BasePage",
+  "com/telerik/listeners/MyListener",
+  "com/telerik/tests/DemosTest",
+  "com/telerik/utils/CustomWait"
+]

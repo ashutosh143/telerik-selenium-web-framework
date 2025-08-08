@@ -1,0 +1,24 @@
+07-08-2025 13:06:10 [main] INFO  BaseTest:40 - <<<< Setting Up all the configs before Run >>>> 
+07-08-2025 13:06:10 [main] INFO  BaseTest:50 - Starting the execution for TestSuite ==> Default Suite with Tags 
+07-08-2025 13:06:10 [main] INFO  BaseTest:55 - Starting the execution for Test ==> telerik-selenium-web-framework
+07-08-2025 13:06:15 [main] INFO  MyListener:40 - 🟡 Starting Test: ServicesTest => fieldsOnThePageTest
+07-08-2025 13:06:16 [main] INFO  ElementUtil:51 -  Consulting is present on the page.
+07-08-2025 13:06:16 [main] INFO  ElementUtil:51 -  Telerik Consulting is present on the page.
+07-08-2025 13:06:16 [main] INFO  MyListener:53 - ✅ Test Passed: ServicesTest => fieldsOnThePageTest
+07-08-2025 13:06:16 [main] INFO  BaseTest:83 - Quitting the driver =====> chrome
+07-08-2025 13:06:19 [main] INFO  MyListener:40 - 🟡 Starting Test: ServicesTest => isTalkToAConsultantButtonPresentTest
+07-08-2025 13:06:19 [main] INFO  MyListener:53 - ✅ Test Passed: ServicesTest => isTalkToAConsultantButtonPresentTest
+07-08-2025 13:06:19 [main] INFO  BaseTest:83 - Quitting the driver =====> chrome
+07-08-2025 13:06:24 [main] INFO  MyListener:40 - 🟡 Starting Test: ServicesTest => serviceApiCall
+07-08-2025 13:06:24 [main] INFO  ServicesTest:37 - This is serviceApiCall function
+07-08-2025 13:06:27 [main] INFO  ServicesTest:40 - Duplicate call to getRequest
+07-08-2025 13:06:29 [main] INFO  MyListener:53 - ✅ Test Passed: ServicesTest => serviceApiCall
+07-08-2025 13:06:29 [main] INFO  BaseTest:83 - Quitting the driver =====> chrome
+07-08-2025 13:06:33 [main] INFO  MyListener:40 - 🟡 Starting Test: ServicesTest => serviceTestB
+07-08-2025 13:06:33 [main] INFO  ServicesTest:46 - This is serviceTestB function
+07-08-2025 13:06:35 [main] INFO  MyListener:53 - ✅ Test Passed: ServicesTest => serviceTestB
+07-08-2025 13:06:35 [main] INFO  BaseTest:83 - Quitting the driver =====> chrome
+07-08-2025 13:06:35 [main] INFO  BaseTest:91 - Ending the execution for Test ==> telerik-selenium-web-framework. 
+
+
+07-08-2025 13:06:35 [main] INFO  BaseTest:96 - <<<< Closing Up all the configs after Run >>>> 

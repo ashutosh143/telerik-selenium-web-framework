@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Telerik Sanity Suite" >
+    <groups>
+        <run>
+            <include name="sanity"/>
+        </run>
+    </groups>
+    <listeners>
+        <listener class-name="com.telerik.listeners.MyListener"/>
+    </listeners>
+    <test name="BlogsTest Sanity Cases">
+        <classes>
+            <class name="com.telerik.tests.BlogsTest"/>
+        </classes>
+    </test>
+
+    <test name="ServicesTest Sanity Cases">
+        <classes>
+            <class name="com.telerik.tests.ServicesTest"/>
+        </classes>
+    </test>
+
+    <test name="DemosTest Sanity Cases">
+        <classes>
+            <class name="com.telerik.tests.DemosTest"/>
+        </classes>
+    </test>
+
+</suite>
